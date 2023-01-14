@@ -1,0 +1,59 @@
+    /*Image pos*/
+    .body{background-color: darkgray;}
+.post1, .post2, .post3{position: relative;width: 80%; margin-left: 10%;}
+.body1{position: absolute;top: 400px;right: 40%;color: bisque; width: 20%; font-size: 20px;
+border-style: groove;
+}
+.image1invert{width: 100%;margin:0%;}
+.image2blur{width: 100%;margin:0%;}
+.image3{width:100%;;margin:2%;}
+
+    /*text*/
+
+.para1{
+    position: absolute;top:380px;
+    width: 100%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 60;
+    text-align: center; color: rgb(205, 188, 177);; 
+}
+.click{background-color: rgb(32, 122, 160);padding: auto; color: rgb(216, 211, 207);
+display: block;position: absolute;top:900px;
+width: 30%; right:45%; top: 380px;
+margin: auto;
+font-size: 30px;
+font-weight: 60;
+text-align: center;}
+.footer{position: absolute;top:350px;border-style:  groove; text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    text-align: center; color: aliceblue;}
+.class1{width: 80%;
+    margin: auto;
+    color: rgb(152, 143, 143);
+    font-size: 30px;
+    top:30px
+    text-align: center; 
+    font-size: 1em;padding: 0.5em;
+    background-color: rgb(32, 122, 160); color: rgb(137, 60, 5);
+    display: block;position: absolute;
+    }
+.class3{font-family: monospace; font-style: oblique;background-color: rgb(32, 122, 160); color: rgb(137, 60, 5);
+    display: block;position: absolute;top:400px}
+.class4{font-family: sans-serif;font-style: normal; background-color: rgb(32, 122, 160); color: rgb(137, 60, 5);
+    display: block;position: absolute;top:1600px
+    margin: auto;
+    font-size: 30px;
+    text-align: center;font-size: 20px;border: position:absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1em; 
+}
+
+.author{font-family: monospace; font-style: italic; top: 20%;}
+.author1{font-family: sans-serif; font-style: italic;}
+    /*FILTERS*/
+    .image1invert{filter: invert(20%);}
+    .image2blur{filter:blur(1px);}
+    .image3{filter: contrast(90%);}
