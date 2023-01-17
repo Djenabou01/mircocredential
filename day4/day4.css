@@ -1,0 +1,55 @@
+*{box-sizing: border-box;}
+.name {background-color: coral;}
+.sunset{width: 500px;}
+.light{width: 60%;}
+/* section for sunset */
+.container{background-color: burlywood;padding: 2em;}
+.title{border: 5px;text-align: center;font-family: 'Courier New', Courier, monospace;font-size:xx-large;font-weight: 500;padding: 1em;
+width: 80%;margin: auto;
+background-color:rgb(178, 171, 171);box-shadow: 10px 10px 8px gray;margin: 3em;}
+.image2, .image3, .image4, .image5{width: 45%;}
+.image2{border-radius: 20px;margin-right: 3%;}
+.image3{border-radius: 80px;}
+.image4{border: ridge 20px rgb(105, 99, 99);padding: 0em;}
+.image5{box-shadow: 0px 0px 5px 10px grey;margin: 5%; border-radius: 15px;margin-left: 5%;}
+.QCCLink{background-color: rgb(204, 227, 227);display: block;text-align: center;width: 60%; margin: auto; font-size: 1.5;color: darkgreen;padding: 1em;
+margin-top: 2em;border-radius: 10px;font-family:'Courier New', Courier, monospace; font-size: xx-large;}
+.QCCLink:hover{background-color: grey; color: darkred;box-shadow: 0px 0px 20px 5px darkgrey;}
+/* navigation tabs--*/
+.link{text-decoration: noneba;background-color: darkgrey;display: block;
+text-align: center;
+padding: 1em;
+width: 50;color: darkgreen; font-family: monospace;font-size: xx-large;}
+.vertical{list-style-type: none; list-style: none; font-family: fantasy;}
+.link:hover{background-color: chocolate; color: darkslategray; border:solid 1px;}
+.horizontal{background-color: rgb(115, 109, 109); top: 0px; position: fixed; width: 100%;}
+.link2{color: darkslategrey;display: inline-block;padding: 4em 8em;font-family: monospace;}
+.link2:hover{background-color: rgb(233, 114, 96);color: brown darkred; text-decoration: none;}
+/* Position*/
+.post{ position:relative; border:ridge 10px rgb(174, 124, 124);width: 80%; margin: auto; color: ;}
+.positionImg{width: 100%; display: block;}
+.paragraph{position: absolute;
+    top: 5%; 
+    background-color: rgba(233, 114, 96,0.5);
+    left: 10%; 
+    right: 10%; 
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+    color: rgb(236, 224, 221); font-family: monospace;}
+    .stickyH1{background-color: darksalmon; padding: 1em; text-align: center; position: sticky;bottom: 0px;}
+    .zcontainer{position: relative;border: outset 10px orange; height: 500px; width: 800px;}
+    .zimage1{ width: 100%; position: absolute; z-index: index 0;height: 100%;}
+    .zimage2{width: 60%;position: absolute; z-index:1; height: 60%;}
+    .zparagraph{font-size: 5em; position: absolute; z-index:2; font-family: monospace; height: 500px; width:800px ;}
+    /* FILTER IMAGES */
+    .blur1, .blur2, .blur3,.sepia1,.sepia2, .sepia3, .invert1, .invert2, .invert3{width: 30%; margin: left 2%; ;}
+    .blur1{filter: blur(1px);}
+    .blur2{filter: blur(10px);}
+    .blur3{filter: blur(20px);}
+    .sepia1{filter: sepia(10%);}
+    .sepia2{filter: sepia(60%);}
+    .sepia3{filter: sepia(100%);}
+    .invert1{filter: invert(20%) ;}
+    .invert2{filter: invert(60%);}
+    .invert3{filter:invert(100%);}
